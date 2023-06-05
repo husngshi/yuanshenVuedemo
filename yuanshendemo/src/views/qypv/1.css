@@ -1,0 +1,23 @@
+.video{
+    width: 900px;
+    margin: auto;
+    /* height: 62%; */
+  }
+  .video-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    /* padding-bottom: 56.25%; 16:9 aspect ratio */
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-top:  9px;
+    margin-left: 16px;
+    
+  }
